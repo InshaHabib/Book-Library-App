@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!--  Book Cover  -->
+
+    <!--  Book Price  -->
+    <ImageView
+        android:id="@+id/ivBookImage"
+        android:layout_width="310dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img" />
+
+    <TextView
+        android:id="@+id/tvBookPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Price: $10"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:gravity="center"/>
+
+    <!--  Book Rating  -->
+    <TextView
+        android:id="@+id/tvBookRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Rating: ★★★★☆"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:gravity="center"/>
+    <!--  Buy Button  -->
+    <Button
+        android:id="@+id/btnBuyNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:text="Back"
+        android:textSize="18sp"/>
+
+</LinearLayout>
